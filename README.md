@@ -14,7 +14,7 @@ NOTE: It is tested on Docker for Mac 18.03
 3. Preload Kubernetes images form Alibaba Cloud Registry Service, NOTE: you can modify the ```images.properties``` for your own images
 
 ```bash
-./load_images.sh
+$ ./load_images.sh
 ```
 
 4. Enable Kubernetes in Docker for Mac, and wait a while for Kubernetes is running
@@ -24,26 +24,26 @@ NOTE: It is tested on Docker for Mac 18.03
 5. Optional: switch the context to docker-for-desktop
 
 ```bash
-kubectl config use-context docker-for-desktop
+$ kubectl config use-context docker-for-desktop
 ```
 
 6. Verify Kubernetes installation
 
 ```bash
-kubectl cluster-info
-kubectl get nodes
+$ kubectl cluster-info
+$ kubectl get nodes
 ```
 
 7. Deploy Kubernetes dashboard
 
 ```bash
-kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+$ kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
 ```
 
 8. Creates proxy server
 
 ```bash
-kubectl proxy
+$ kubectl proxy
 ```
 
 9. Access dashboard
@@ -52,15 +52,37 @@ kubectl proxy
 http://localhost:8001/ui
 ```
 
-## Usseful
+## [Helm](https://helm.sh/)
+
+```bash
+# use homebrew
+$ brew install kubernetes-helm
+
+# initialize the local CLI and also install Tiller into your Kubernetes cluster
+$ helm init
+
+# update charts repo
+$ helm repo update
+
+# install mysql chart
+$ helm install --name my_mysql stable/mysql
+
+# delete
+$ helm delete my_mysql
+
+# remove the release from the store and make its name free for later use
+$ helm delete --purge my_mysql
+```
+
+## Useful
 
 - show pods in the kube-system namespace.
 
 ```bash
-kubectl get pods --namespace kube-system
+$ kubectl get pods --namespace kube-system
 
 # list images only
-kubectl get pods --namespace kube-system -o jsonpath="{..image}"
+$ kubectl get pods --namespace kube-system -o jsonpath="{..image}"
 ```
 
 
