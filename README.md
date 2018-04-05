@@ -1,10 +1,10 @@
-# Enable Kubernetes on Docker for Desktop in China
+# Enable Kubernetes on Docker for Mac in China
 
 NOTE: It is tested on Docker for Mac 18.02/18.03
 
-1. Install Docker for Mac or Windows
+1. Install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/) or Windows
 
-2. Config registry mirror for Docker daemon with ```https://registry.docker-cn.com```
+2. Config [registry mirror](https://www.docker-cn.com/registry-mirror) for Docker daemon with ```https://registry.docker-cn.com```
 
 ![mirror](./image/mirror.jpg)
 
