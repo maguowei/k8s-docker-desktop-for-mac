@@ -65,13 +65,13 @@ $ helm init
 $ helm repo update
 
 # install mysql chart
-$ helm install --name my_mysql stable/mysql
+$ helm install --name my-mysql stable/mysql
 
 # delete
-$ helm delete my_mysql
+$ helm delete my-mysql
 
 # remove the release from the store and make its name free for later use
-$ helm delete --purge my_mysql
+$ helm delete --purge my-mysql
 ```
 
 ## Useful
