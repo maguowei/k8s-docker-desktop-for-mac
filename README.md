@@ -38,18 +38,12 @@ $ kubectl get nodes
 
 ```bash
 $ kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
-```
 
-8. Creates proxy server
-
-```bash
+# creates proxy server
 $ kubectl proxy
-```
 
-9. Access dashboard
-
-```
-http://localhost:8001/ui
+# access dashboard at:
+http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/.
 ```
 
 ## [Helm](https://helm.sh/)
