@@ -4,7 +4,7 @@ NOTE: It is tested on Docker for Mac 18.04
 
 ## Install
 
-1. Install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/) or Windows
+1. Install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
 
 2. Config [registry mirror](https://www.docker-cn.com/registry-mirror) for Docker daemon with ```https://registry.docker-cn.com```
 
