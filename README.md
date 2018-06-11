@@ -1,6 +1,6 @@
 # Enable Kubernetes on Docker for Mac in China
 
-NOTE: It is tested on Docker for Mac 18.04
+NOTE: It is tested on Docker for Mac 18.05 (with Kubernetes 1.10.3)
 
 ## Install
 
