@@ -1,6 +1,8 @@
 # Enable Kubernetes on Docker for Mac in China
 
-NOTE: It is tested on Docker for Mac 18.05 (with Kubernetes 1.10.3)
+NOTE: 
+ - It is tested on Docker for Mac 18.05 (with Kubernetes 1.10.3)
+ - Ubuntu Install Kubernetes with Kubeadm. see [kubernetes-for-china](https://github.com/maguowei/kubernetes-for-china)
 
 ## Install
 
@@ -68,22 +70,9 @@ $ helm delete my-mysql
 $ helm delete --purge my-mysql
 ```
 
-## Useful
-
-- show pods in the kube-system namespace.
-
-```bash
-$ kubectl get pods --namespace kube-system
-
-# list images only
-$ kubectl get pods --namespace kube-system -o jsonpath="{..image}"
-```
-
-
 ## Reference
 
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/)
-- [Kubernetes Documentation CN](https://k8smeetup.github.io/)
 - [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 - [Awesome-Kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
 - [Kubernetes Handbook](https://github.com/rootsongjc/kubernetes-handbook)
