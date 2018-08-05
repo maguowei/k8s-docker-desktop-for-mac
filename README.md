@@ -1,7 +1,7 @@
 # Enable Kubernetes on Docker for Mac in China
 
 NOTE: 
- - It is tested on Docker for Mac 18.05 (with Kubernetes 1.10.3)
+ - It is tested on Docker for Mac 18.06 (with Kubernetes 1.10.3)
  - Ubuntu Install Kubernetes with Kubeadm. see [kubernetes-for-china](https://github.com/maguowei/kubernetes-for-china)
 
 ## Install
