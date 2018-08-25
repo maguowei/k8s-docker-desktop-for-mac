@@ -39,16 +39,18 @@ $ kubectl get nodes
 7. Deploy Kubernetes dashboard
 
 ```bash
-$ kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+$ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
 
-# creates proxy server
+# To access Dashboard from your local workstation you must create a secure channel to your Kubernetes cluster
 $ kubectl proxy
-
-# access dashboard at:
-http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/.
-
-# get dashboard admin privileges https://github.com/kubernetes/dashboard/wiki/Access-control#admin-privileges
 ```
+
+Now access Dashboard at:
+[`http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/`](
+http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/)
+
+Get dashboard admin privileges:
+[`https://github.com/kubernetes/dashboard/wiki/Access-control#admin-privileges`](get dashboard admin privileges)
 
 ## [Helm](https://helm.sh/)
 
