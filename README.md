@@ -50,7 +50,7 @@ Now access Dashboard at:
 http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/)
 
 Get dashboard admin privileges:
-[`https://github.com/kubernetes/dashboard/wiki/Access-control#admin-privileges`](get dashboard admin privileges)
+[`https://github.com/kubernetes/dashboard/wiki/Access-control#admin-privileges`](https://github.com/kubernetes/dashboard/wiki/Access-control#admin-privileges)
 
 ## [Helm](https://helm.sh/)
 
