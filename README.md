@@ -1,15 +1,15 @@
-# `Docker for Mac`开启并使用 `Kubernetes`
+# `Docker Desktop for Mac` 开启并使用 `Kubernetes`
 
-`Docker for Mac` 最新版本已经可以简单的启用 `Kubernetes` 集群, 为学习 `Kubernetes` 提供了极大的便利, 但是由于众所周知的原因, 国内的网络下不能很方便的下载 `Kubernetes` 集群所需要的镜像文件, 导致集群启用失败. 这里提供了一个简单的方法, 利用阿里云的镜像服务, 预先下载镜像文件, 以方便 `Kubernetes` 学习和使用。
+`Docker Desktop for Mac` 最新版本已经可以简单的启用 `Kubernetes` 集群, 为学习 `Kubernetes` 提供了极大的便利, 但是由于众所周知的原因, 国内的网络下不能很方便的下载 `Kubernetes` 集群所需要的镜像文件, 导致集群启用失败. 这里提供了一个简单的方法, 利用阿里云的镜像服务, 预先下载镜像文件, 以方便 `Kubernetes` 学习和使用。
 
 说明:
- - 本设置在`Docker for Mac 18.06 (with Kubernetes 1.10.3)`上经过测试可用
- - `Docker for Windows` 最新版理论上也可用, 但是没有经过测试
+ - 本设置在`Docker Desktop for Mac (Version 2.0.0.0-mac81 (29211) with Kubernetes: v1.10.3)`上经过测试可用
+ - `Docker Desktop for Windows` 最新版理论上也可用, 但是没有经过测试
  - 使用 `Kubeadm` 在`Ubuntu`上安装 `Kubernetes` 请查看 [kubernetes-for-china](https://github.com/maguowei/kubernetes-for-china)
 
 ## 安装并设置
 
-1. 安装 [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
+1. 安装 [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 2. 设置 `Docker` 中国官方镜像加速 [registry mirror](https://www.docker-cn.com/registry-mirror) ```https://registry.docker-cn.com```
 
