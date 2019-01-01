@@ -52,8 +52,8 @@ $ kubectl proxy
 [`http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/`](
 http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/)
 
-获取 `Dashboard` `admin` 权限:
-[`https://github.com/kubernetes/dashboard/wiki/Access-control#admin-privileges`](https://github.com/kubernetes/dashboard/wiki/Access-control#admin-privileges)
+创建`Dashboard`管理员用户并用`Token`登陆:
+[`https://github.com/kubernetes/dashboard/wiki/Creating-sample-user`](https://github.com/kubernetes/dashboard/wiki/Creating-sample-user)
 
 ## [Helm](https://helm.sh/)
 
