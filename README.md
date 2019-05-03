@@ -3,7 +3,7 @@
 `Docker Desktop` 已经可以简单的启用 `Kubernetes` 集群, 为学习 `Kubernetes` 提供了极大的便利, 但是由于众所周知的原因, 国内的网络下不能很方便的下载 `Kubernetes` 集群所需要的镜像文件, 导致集群启用失败. 这里提供了一个简单的方法, 利用阿里云的镜像服务, 预先下载镜像文件, 以方便 `Kubernetes` 学习和使用。
 
 说明:
- - 本设置在`Docker Desktop (Mac) Version 2.0.3.0 (31778) Channel: edge (Kubernetes: v1.13.0)`上经过测试可用
+ - 本设置在`Docker Desktop (Mac) Version 2.0.4.0 (33772) Channel: edge (Kubernetes: v1.14.1)`上经过测试可用
 
  - 使用 `Kubeadm` 在`Ubuntu`上安装 `Kubernetes` 请查看 [kubernetes-for-china](https://github.com/maguowei/kubernetes-for-china)
 
