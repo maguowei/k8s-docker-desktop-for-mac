@@ -13,7 +13,7 @@
 
 2. 设置 `Docker` 中国官方镜像加速 [registry mirror](https://www.docker-cn.com/registry-mirror) ```https://registry.docker-cn.com```
 
-![mirror](./image/mirror.jpg)
+![mirror](./image/mirror.png)
 
 3. 预先从阿里云`Docker`镜像下载 `Kubernetes` 所需要的镜像, 可以通过修改 [./images](./images) 文件定制你自己需要的镜像
 
@@ -23,7 +23,7 @@ $ ./load_images.sh
 
 4. 在`Docker for Mac` 设置中启用 `Kubernetes` 选项, 并等待一会儿，直到 `Kubernetes` 开始运行。
 
-![k8s](./image/k8s.jpg)
+![k8s](./image/k8s.png)
 
 5. 可选的步骤: 切换`Kubernetes`运行上下文至 `docker-desktop`
 
