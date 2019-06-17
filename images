@@ -6,4 +6,4 @@ k8s.gcr.io/coredns:1.3.1=registry.cn-hangzhou.aliyuncs.com/google_containers/cor
 k8s.gcr.io/pause:3.1=registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.1
 k8s.gcr.io/etcd:3.3.10=registry.cn-hangzhou.aliyuncs.com/google_containers/etcd:3.3.10
 k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.1=registry.cn-hangzhou.aliyuncs.com/google_containers/kubernetes-dashboard-amd64:v1.10.1
-gcr.io/kubernetes-helm/tiller:v2.13.1=registry.cn-hangzhou.aliyuncs.com/google_containers/tiller:v2.13.1
+gcr.io/kubernetes-helm/tiller:v2.14.1=registry.cn-hangzhou.aliyuncs.com/google_containers/tiller:v2.14.1
