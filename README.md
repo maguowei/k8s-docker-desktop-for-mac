@@ -12,6 +12,7 @@
 1. 下载安装 [Docker Desktop (Mac) Channel: edge](https://download.docker.com/mac/edge/Docker.dmg)
 
 2. 设置 `Docker` 镜像加速, 这里使用 微软 `Azure` 的镜像服务，也可以选择其他的镜像加速服务。 [Azure Container Registry Proxy](https://github.com/Azure/container-service-for-azure-china/blob/master/aks/README.md#22-container-registry-proxy) ```https://dockerhub.azk8s.cn```
+
 ![mirror](./image/mirror.png)
 
 3. 预先从阿里云`Docker`镜像下载 `Kubernetes` 所需要的镜像, 可以通过修改 [./images](./images) 文件定制你自己需要的镜像
