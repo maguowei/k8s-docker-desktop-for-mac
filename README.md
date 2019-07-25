@@ -11,7 +11,7 @@
 
 1. 下载安装 [Docker Desktop (Mac) Channel: edge](https://download.docker.com/mac/edge/Docker.dmg)
 
-2. 设置 `Docker` 中国官方镜像加速 [registry mirror](https://www.docker-cn.com/registry-mirror) ```https://registry.docker-cn.com```
+2. 设置 `Docker` 镜像加速, 这里使用 微软 Azure的镜像服务，也可以选择其他的镜像加速服务 [Azure Registry Mirror](https://github.com/Azure/container-service-for-azure-china/blob/master/aks/README.md#22-container-registry-proxy) ```https://dockerhub.azk8s.cn```
 
 ![mirror](./image/mirror.png)
 
