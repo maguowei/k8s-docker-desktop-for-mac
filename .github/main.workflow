@@ -1,6 +1,6 @@
 workflow "k8s image sync" {
   resolves = ["sync"]
-  on = "schedule(*/2 * * * *)"
+  on = "push"
 }
 
 action "docker login" {
