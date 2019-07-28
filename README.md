@@ -1,6 +1,6 @@
 # `Docker Desktop for Mac` 开启并使用 `Kubernetes`
 
-`Docker Desktop` 可以方便的启用 `Kubernetes` 集群, 为学习 `Kubernetes` 提供了极大的便利, 但是由于众所周知的原因, 国内的网络下不能很方便的下载 `Kubernetes` 集群所需要的镜像文件, 导致集群启用失败. 这里提供了一个简单的方法, 利用阿里云的镜像服务, 预先下载镜像文件, 以方便 `Kubernetes` 学习和使用。
+`Docker Desktop` 可以方便的启用 `Kubernetes` 集群, 为学习 `Kubernetes` 提供了极大的便利, 但是由于众所周知的原因, 国内的网络下不能很方便的下载 `Kubernetes` 集群所需要的镜像, 导致集群启用失败. 这里提供了一个简单的方法, 利用 [GitHub Actions](https://developer.github.com/actions/creating-github-actions/) 实现 `k8s.gcr.io` 上 `kubernetes` 依赖镜像自动同步到 [Docker Hub](https://hub.docker.com/) 上指定的仓库中。 通过 [load_images.sh](./load_images.sh) 将所需镜像从 `Docker Hub` 的同步仓库中取回，并重新打上原始的`tag`. 镜像对应关系文件可以查看: [images](./images).
 
 说明:
 
@@ -15,7 +15,7 @@
 
 ![mirror](./image/mirror.png)
 
-3. 预先从阿里云`Docker`镜像下载 `Kubernetes` 所需要的镜像, 可以通过修改 [./images](./images) 文件定制你自己需要的镜像
+3. 从 `Docker Hub` 的同步仓库中取回，并重新打上原始的`tag`.
 
 ```bash
 ./load_images.sh
@@ -83,4 +83,3 @@ $ helm delete --purge my-mysql
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/)
 - [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 - [Awesome-Kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
-- [Kubernetes Handbook](https://github.com/rootsongjc/kubernetes-handbook)
