@@ -4,7 +4,7 @@
 
 说明:
 
-- 当前在 `Docker Desktop (Mac) Version 2.0.5.0 (35318) Channel: edge (Kubernetes: v1.14.3)`上经过测试可用
+- 当前在 `Docker Desktop (Mac) Version 2.1.0.0 (36792) Channel: edge (Kubernetes: v1.14.3)`上经过测试可用
 - 使用 `Kubeadm` 在`Ubuntu`上安装 `Kubernetes` 请查看 [kubernetes-for-china](https://github.com/maguowei/kubernetes-for-china)
 
 ## 安装并设置
