@@ -7,7 +7,7 @@
 - 当前在 `Docker Desktop (Mac) Version 2.1.0.0 (36792) Channel: edge (Kubernetes: v1.14.3)`上经过测试可用
 - 使用 `Kubeadm` 在`Ubuntu`上安装 `Kubernetes` 请查看 [kubernetes-for-china](https://github.com/maguowei/kubernetes-for-china)
 
-## 安装并设置
+## 安装并启动
 
 1. 下载安装 [Docker Desktop (Mac) Channel: edge](https://download.docker.com/mac/edge/Docker.dmg)
 
@@ -39,3 +39,8 @@ $ kubectl cluster-info
 $ kubectl get nodes
 $ kubectl describe node
 ```
+
+## 参考
+
+- [部署 Kubernetes Dashboard](https://github.com/maguowei/k8s-cookbook#%E9%83%A8%E7%BD%B2-kubernetes-dashboard)
+- [Helm 的使用](https://github.com/maguowei/k8s-cookbook#helm)
