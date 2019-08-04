@@ -5,5 +5,3 @@ k8s.gcr.io/kube-apiserver:v1.14.3=gotok8s/kube-apiserver:v1.14.3
 k8s.gcr.io/coredns:1.3.1=gotok8s/coredns:1.3.1
 k8s.gcr.io/pause:3.1=gotok8s/pause:3.1
 k8s.gcr.io/etcd:3.3.10=gotok8s/etcd:3.3.10
-k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.1=gotok8s/kubernetes-dashboard-amd64:v1.10.1
-gcr.io/kubernetes-helm/tiller:v2.14.2=gotok8s/tiller:v2.14.2
