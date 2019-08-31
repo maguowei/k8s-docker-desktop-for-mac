@@ -1,5 +1,5 @@
-on: push
 name: k8s image sync
+on: push
 jobs:
   dockerLogin:
     name: docker login
