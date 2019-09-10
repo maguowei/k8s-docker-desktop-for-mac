@@ -14,5 +14,5 @@ jobs:
     - name: sync
       uses: maguowei/actions/k8s-image-sync@master
       env:
-        KUBERNETES_VERSION: v1.14.3
+        KUBERNETES_VERSION: v1.14.6
         REGISTRY: gotok8s
