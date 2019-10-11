@@ -1,18 +1,14 @@
 name: k8s image sync
 on: push
 jobs:
-  dockerLogin:
-    name: docker login
+  k8s-image-sync:
+    name: k8s image sync
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: docker login
-      uses: actions/docker/login@master
-      env:
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
     - name: sync
       uses: maguowei/actions/k8s-image-sync@master
-      env:
-        KUBERNETES_VERSION: v1.14.6
-        REGISTRY: gotok8s
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        repository: gotok8s
+        kubernetes_version: v1.14.6
