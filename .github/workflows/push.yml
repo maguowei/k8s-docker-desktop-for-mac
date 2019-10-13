@@ -22,5 +22,5 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.GITHUB_DOCKER_PASSWORD }}
         registry: docker.pkg.github.com
-        repository: maguowei/k8s-docker-desktop-for-mac
+        repository: gotok8s/gotok8s
         kubernetes_version: v1.14.6
