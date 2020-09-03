@@ -6,7 +6,7 @@
 
 说明:
 
-- 当前在 `Docker Desktop (Mac) Version 2.3.4.0 (46980) Channel: edge (Kubernetes: v1.18.6)`上经过测试可用
+- 当前在 `Docker Desktop (Mac) Version 2.3.6.0 (47622) Channel: edge (Kubernetes: v1.18.8)`上经过测试可用
   - [Docker Desktop for Mac Edge release notes](https://docs.docker.com/docker-for-mac/edge-release-notes/)
 - 使用 `Kubeadm` 在`Ubuntu`上安装 `Kubernetes` 请查看 [kubernetes-for-china](https://github.com/maguowei/kubernetes-for-china)
 
