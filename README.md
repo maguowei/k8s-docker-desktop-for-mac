@@ -6,13 +6,12 @@
 
 说明:
 
-- 当前在 `Docker Desktop (Mac) Version 2.4.2.0 (48975) Channel: edge (Kubernetes: v1.19.2)`上经过测试可用
-  - [Docker Desktop for Mac Edge release notes](https://docs.docker.com/docker-for-mac/edge-release-notes/)
+- 当前在 `Docker Desktop (Mac) Version 3.0.3 (51017) - (Kubernetes: v1.19.3)`上经过测试可用
 - 使用 `Kubeadm` 在`Ubuntu`上安装 `Kubernetes` 请查看 [kubernetes-for-china](https://github.com/maguowei/kubernetes-for-china)
 
 ## 安装并启动
 
-1. 下载安装 [Docker Desktop (Mac) Channel: edge](https://download.docker.com/mac/edge/Docker.dmg)
+1. 下载安装 [Docker Desktop (Mac)](https://desktop.docker.com/mac/stable/Docker.dmg)
 
 2. 从 `Docker Hub` 的同步仓库中取回，并重新打上原始的`tag`.
 
