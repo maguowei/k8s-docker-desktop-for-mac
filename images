@@ -4,4 +4,4 @@ k8s.gcr.io/kube-scheduler:v1.19.3=gotok8s/kube-scheduler:v1.19.3
 k8s.gcr.io/kube-apiserver:v1.19.3=gotok8s/kube-apiserver:v1.19.3
 k8s.gcr.io/coredns:1.7.0=gotok8s/coredns:1.7.0
 k8s.gcr.io/pause:3.2=gotok8s/pause:3.2
-k8s.gcr.io/etcd:3.4.3-0=gotok8s/etcd:3.4.13-0
+k8s.gcr.io/etcd:3.4.13-0=gotok8s/etcd:3.4.13-0
