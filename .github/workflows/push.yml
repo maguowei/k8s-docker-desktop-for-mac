@@ -11,4 +11,4 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: gotok8s
-        kubernetes_version: v1.21.2
+        kubernetes_version: v1.21.4

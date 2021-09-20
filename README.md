@@ -6,7 +6,7 @@
 
 说明:
 
-- 当前在 `Docker Desktop (Mac) Version 3.5.1 (Kubernetes: v1.21.2)`上经过测试可用
+- 当前在 `Docker Desktop (Mac) Version 4.0.1 (Kubernetes: v1.21.4)`上经过测试可用
 - 使用 `Kubeadm` 在`Ubuntu`上安装 `Kubernetes` 请查看 [gotok8s](https://github.com/maguowei/gotok8s)
 
 ## 安装并启动
