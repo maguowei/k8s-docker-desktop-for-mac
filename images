@@ -1,7 +1,7 @@
-k8s.gcr.io/kube-proxy:v1.21.5=gotok8s/kube-proxy:v1.21.5
-k8s.gcr.io/kube-controller-manager:v1.21.5=gotok8s/kube-controller-manager:v1.21.5
-k8s.gcr.io/kube-scheduler:v1.21.5=gotok8s/kube-scheduler:v1.21.5
-k8s.gcr.io/kube-apiserver:v1.21.5=gotok8s/kube-apiserver:v1.21.5
-k8s.gcr.io/coredns/coredns:v1.8.0=gotok8s/coredns:v1.8.0
-k8s.gcr.io/pause:3.4.1=gotok8s/pause:3.4.1
-k8s.gcr.io/etcd:3.4.13-0=gotok8s/etcd:3.4.13-0
+k8s.gcr.io/kube-proxy:v1.22.4=gotok8s/kube-proxy:v1.22.4
+k8s.gcr.io/kube-controller-manager:v1.22.4=gotok8s/kube-controller-manager:v1.22.4
+k8s.gcr.io/kube-scheduler:v1.22.4=gotok8s/kube-scheduler:v1.22.4
+k8s.gcr.io/kube-apiserver:v1.22.4=gotok8s/kube-apiserver:v1.22.4
+k8s.gcr.io/coredns/coredns:v1.8.4=gotok8s/coredns:v1.8.4
+k8s.gcr.io/pause:3.5=gotok8s/pause:3.5
+k8s.gcr.io/etcd:3.5.0-0=gotok8s/etcd:3.5.0-0
